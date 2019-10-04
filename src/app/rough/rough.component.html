@@ -1,0 +1,14 @@
+<h2>Student id is = {{stuId}}</h2>
+<div>
+    <button (click) = "onPrevious()">Previous</button>
+    <button (click) = "onNext()">Next</button>
+</div>
+<div style="float: right">
+    <a (click) ="onSelected()">Back</a>
+</div>
+
+<p>
+    <button (click) = "onContact()">Contact</button>
+    <button (click) = "onWork()">Work Details</button>
+</p>
+<router-outlet></router-outlet>

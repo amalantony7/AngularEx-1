@@ -1,0 +1,12 @@
+<h2>Student Details</h2>
+<h2>{{errorMess}}</h2>
+<div>
+    <h4><u>Science</u></h4>
+    <ol class="items">
+       <li [class.selected] = 'onSelect(item)' (click) = "getId(item)" *ngFor = "let item of student">
+               <span>{{item.Name}}</span>
+               
+       </li>
+    </ol>
+    
+</div>

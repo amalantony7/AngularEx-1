@@ -1,0 +1,28 @@
+<div>
+    <h2> Employees </h2>
+    <table border = 1>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Designation</th>
+        </tr>
+        <ng-container *ngFor = "let i of cEmployee">
+            <tr>
+                <td>
+                    {{i.Id}}
+                </td>
+                <td>
+                    {{i.Name}}
+                </td>
+                <td>
+                    {{i.Department  | stringRev}}
+                </td>
+                <td>
+                    {{i.Designation}}
+                </td>
+            </tr>
+
+        </ng-container>
+    </table>
+</div>

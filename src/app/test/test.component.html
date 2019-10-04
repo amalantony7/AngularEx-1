@@ -1,0 +1,24 @@
+
+<!--<div [class] = "'red size'">This is a test message</div>
+<div class = 'red size'>This is a test message</div>
+<div [class.red] = "true">This is a test message</div>
+<div ngClass = 'size'>This is a test message</div>-->
+<div>
+    <input type="text" [(ngModel)]=myName>
+    {{myName}}
+    <button (click) = "onPress()">Log</button>
+</div>
+<h2>{{parentClass}}</h2>
+<button (click) = "onType()">Submit</button>
+<h2>{{700 | currency: 'INR'}}</h2>
+<h2> {{5.026 | number:'2.4-5'}}</h2>
+<h2> {{name + " antony"| titlecase }}</h2>
+<h2> {{0.35 | percent }}</h2>
+<h2> {{Date | date:'mediumTime'}}</h2>
+<h2> {{name | reverseStr}}</h2>
+<h2> {{arr[1]}}</h2>
+<h2> {{ob.foo}}</h2>
+
+
+
+<img [src] = "link | defaultPipe : errorImg">

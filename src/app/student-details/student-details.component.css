@@ -1,0 +1,5 @@
+.items li.selected{
+    background-color: aqua;
+    color: #000;
+    
+}

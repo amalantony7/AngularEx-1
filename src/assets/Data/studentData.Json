@@ -1,0 +1,7 @@
+[
+    {"Id" : 101 , "Name" : "Abin" , "Class" : 12 , "Group" : "Science"},
+    {"Id" : 102 , "Name" : "Akshay" , "Class" : 12 , "Group" : "Commerce"},
+    {"Id" : 103 , "Name" : "Amal" , "Class" : 12 , "Group" : "Science"},
+    {"Id" : 104 , "Name" : "Anu" , "Class" : 12 , "Group" : "Commerce"},
+    {"Id" : 105 , "Name" : "Denny" , "Class" : 12 , "Group" : "Science"}
+]

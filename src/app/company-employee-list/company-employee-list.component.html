@@ -1,0 +1,22 @@
+<div>
+    <h2>Employee List</h2>
+    <table border = 1>
+        <tr>
+            <th [style.bold] = 'true'>
+                Id
+            </th>
+            <th [style.bold] = 'true'>
+                Name
+            </th>
+        </tr>
+        <tr *ngFor = "let i of cEmployee">
+            <td>
+                {{i.Id}}
+            </td>
+            <td>
+                {{i.Name}}
+            </td>
+        </tr>
+    </table>
+</div>
+
