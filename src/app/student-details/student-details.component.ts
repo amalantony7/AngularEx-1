@@ -24,6 +24,10 @@ export class StudentDetailsComponent implements OnInit {
         .subscribe(data => this.student = data,
                     error => this.errorMess = error);
 
+
+    //ParamMap is used instead of snapshot approach
+    //when navigating from one component back to the same component sanpshot approach will not work.                
+
      this.route.paramMap.subscribe((params : ParamMap) =>{
       let id = parseInt(params.get('id'));
       this.stuId = id;
